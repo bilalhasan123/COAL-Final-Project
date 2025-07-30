@@ -1,0 +1,65 @@
+ 
+THE WORD SEARCH
+(Search for anything)
+
+Submitted to:
+Sir TALHA SHAHID Coal Lab instructor) 
+Submitted by:
+Bilal Hasan 23k-2000
+
+
+
+
+
+
+
+
+Report on Word Search Implementation in Assembly Language
+Introduction
+This project implements a word search game in assembly language using the MASM assembler, where the program allows users to input a word and search for it in a predefined 2D character array. The program features interactive menus, word search functionality, and a scoring system, all implemented in assembly. It uses the Irvine32.inc library for essential operations like input/output and memory manipulation.
+
+Project Objectives
+Implementation of Word Search Functionality
+The program simulates a word search game where the user inputs a word to search for within a 2D grid of characters. The search functionality checks for the word in various directions (e.g., left-to-right, top-to-bottom).
+
+Interactive User Interface
+The program provides a user-friendly interface, with menus for game options such as starting a new game, checking scores, or quitting. The interface guides the user through the word search process, displaying relevant messages and options.
+
+Tracking Game Progress
+The program tracks and displays the user's remaining lives, score, and the positions of found words. If the word is found, the score increases; if the word is not found, the user loses a life.
+
+File Management
+The program allows reading and writing to a score file (score.txt), where high scores are stored. Users can check their scores or update the file after completing the game.
+
+Core Components
+Word Search Functionality
+The word search is implemented by comparing the input word character by character with the characters in the grid. The program searches the grid for matches in both the horizontal and vertical directions.
+
+Horizontal Search (Left to Right): The program checks each row of the grid to find if the input word appears from left to right.
+Vertical Search (Top to Bottom): Similarly, the program checks each column of the grid to identify vertical word occurrences.
+Example:
+If the user inputs the word "TRADITION," the program will check for occurrences of the word in all possible directions. If the word is found in the specified direction, the program prints a success message along with the coordinates where the word was found.
+
+Menu System
+The program includes a simple text-based menu for navigation. The user can:
+
+Start a new game (Quick Play).
+View the scores from previous games.
+Quit the game.
+The menu is displayed repeatedly, and the user can make choices until the game is exited.
+
+Conclusion
+This project successfully implements a word search game in assembly language, demonstrating various fundamental programming concepts, such as user interaction, data manipulation, and file handling. The program's design and structure provide valuable insights into how low-level programming operates and how assembly can be used for practical applications like game development.
+ 
+
+IMPLEMENTATION
+Main menu
+ 
+
+We have to enter our choice.
+
+ From a table we can search for the word like in a word search game.
+ 
+
+ 
+It gives us the location of every letter that was searched for if it is present in the table.
