@@ -22,9 +22,8 @@ BUFFER_SIZE = 1000000
     check DWORD 1
     Lives DWORD 3
     project BYTE " ",0
-name1 BYTE "             23K-2023 MUZZAMMIL YOUSUF ",0
-name2 BYTE "             23K-2078 ABDUL REHMAN ",0
-name3 BYTE "             23K-2000 BILAL HASAN ",0
+name1 BYTE "             23K-2000 BILAL HASAN ",0
+
 
     msg1 byte "                                                               Enter any word you want to search : ",0
     msg2 byte "                                                                     The word doesn't found",0
